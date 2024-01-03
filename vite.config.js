@@ -2,7 +2,7 @@ const path = require('path')
 import minify from 'vite-plugin-minify'
 
 module.exports = {
-  root: 'src',
+  root: './',
 
   plugins: [
     minify({
@@ -13,6 +13,7 @@ module.exports = {
   build: {
     outDir: '../dist',
   },
+
 
   resolve: {
     alias: {

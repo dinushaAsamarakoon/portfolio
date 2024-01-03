@@ -7,11 +7,12 @@
   "scripts": {
     "dev": "vite src",
     "dev-host": "vite src --host",
-    "build": "vite build",
+    "build": "vue-cli-service build",
     "serve": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "@vue/cli-service": "^5.0.8",
     "vite": "^2.9.15"
   },
   "devDependencies": {
