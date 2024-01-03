@@ -2,7 +2,7 @@ const path = require('path')
 import minify from 'vite-plugin-minify'
 
 module.exports = {
-  root: './',
+  root: 'src',
 
   plugins: [
     minify({
@@ -14,6 +14,7 @@ module.exports = {
     outDir: '../dist',
   },
 
+  base:"/portfolio/",
 
   resolve: {
     alias: {
